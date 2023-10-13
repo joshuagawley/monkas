@@ -1,5 +1,4 @@
-#include "../lexer.h"
-
+#include <../monkas/lexer.h>
 #include <gtest/gtest.h>
 
 #include <string_view>

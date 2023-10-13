@@ -1,7 +1,7 @@
 #include <fmt/core.h>
 
-#include "lexer.h"
-#include "token.h"
+#include "monkas/lexer.h"
+#include "monkas/token.h"
 
 using Token = monkas::Token;
 using monkas::TokenType;
