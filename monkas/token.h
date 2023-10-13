@@ -141,10 +141,10 @@ using TokenType = monkas::TokenType;
 using Token = monkas::Token;
 
 template <>
-struct fmt::formatter<TokenType> : fmt::ostream_formatter {};
+struct formatter<TokenType> : ostream_formatter {};
 
 template <>
-struct fmt::formatter<Token> : fmt::ostream_formatter {};
+struct formatter<Token> : ostream_formatter {};
 
 }  // namespace fmt
 
