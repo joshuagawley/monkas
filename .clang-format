@@ -1,0 +1,7 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+AlignArrayOfStructures: Left
+ColumnLimit: 80
+PointerAlignment: Right
+ReferenceAlignment: Pointer
